@@ -1,0 +1,8 @@
+{
+  "name": "centscape-assignment",
+  "version": "1.0.0",
+  "scripts": {
+    "verify": "npm run typecheck -w app && npm run typecheck -w server && npm run test -w server"
+  },
+  "workspaces": ["app", "server"]
+}

@@ -1,0 +1,6 @@
+{
+  "expo": {
+    "scheme": "centscape",
+    "entryPoint": "App.tsx"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "title": { "type": "string" },
+    "image": { "type": "string" },
+    "price": { "type": "string" },
+    "currency": { "type": "string" },
+    "siteName": { "type": "string" },
+    "sourceUrl": { "type": "string" }
+  },
+  "required": ["title", "sourceUrl"]
+}
